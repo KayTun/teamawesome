@@ -1,11 +1,10 @@
 .team-section {
   display: flex;
   gap: 2rem;
+  flex-wrap: wrap;
 }
 
 .card {
   display: flex;
   flex-direction: column;
 }
-
-
