@@ -498,10 +498,14 @@ article#article.show .info .date-author {
 }
 
 /*Articles SASS file*/
+.team-section {
+  display: flex;
+  gap: 2rem;
+}
+
 .card {
   display: flex;
   flex-direction: column;
-  gap: 0, 75rem;
 }
 
 /*page-3-content SASS file*/
