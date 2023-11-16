@@ -499,6 +499,10 @@ article#article.show .info .date-author {
 
 /*Articles SASS file*/
 .hero {
+  display: flex;
+  flex-direction: column;
+}
+.hero img {
   width: 100vw;
   margin-left: -5vw;
   margin-right: -5vw;
@@ -506,13 +510,37 @@ article#article.show .info .date-author {
   padding-bottom: 0%;
   overflow: hidden;
 }
-.hero img {
-  width: 100%;
-  height: auto;
-  display: block;
+
+.herotext {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-top: 1.2rem;
+  padding-bottom: 1.3rem;
+}
+.herotext > * {
+  flex: 1 1 25%;
+  box-sizing: border-box;
+  word-wrap: break-word;
+  line-height: 1.38em;
+}
+.herotext > *:not(:last-child) {
+  margin-right: 0;
 }
 
 /*Hero SASS file*/
+.team-section {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+}
+
+/*page-3-content SASS file*/
 html {
   width: 100%;
   margin: 0;
