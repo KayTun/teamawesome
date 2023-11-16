@@ -154,11 +154,7 @@ a:hover, a:active, a:visited {
   background: white;
   display: block;
   margin-left: -5%;
-<<<<<<< Updated upstream
-  padding-top: 10px;
-=======
   padding-top: 1%;
->>>>>>> Stashed changes
   /*Breakpoint for when menu can't fit the screen anymore*/
   /*#header h1*/
   /*Close nav#menu*/
@@ -502,20 +498,6 @@ article#article.show .info .date-author {
 }
 
 /*Articles SASS file*/
-<<<<<<< Updated upstream
-.team-section {
-  display: flex;
-  gap: 2rem;
-  flex-wrap: wrap;
-}
-
-.card {
-  display: flex;
-  flex-direction: column;
-}
-
-/*page-3-content SASS file*/
-=======
 .hero {
   width: 100vw;
   margin-left: -5vw;
@@ -531,7 +513,18 @@ article#article.show .info .date-author {
 }
 
 /*Hero SASS file*/
->>>>>>> Stashed changes
+.team-section {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+}
+
+/*page-3-content SASS file*/
 html {
   width: 100%;
   margin: 0;
