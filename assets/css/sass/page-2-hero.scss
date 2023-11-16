@@ -1,14 +1,32 @@
 .hero {
-  width: 100vw;
+
+  img {
+    width: 100vw;
   margin-left: calc(-5vw); // Adjusted to be relative to viewport width
   margin-right: calc(-5vw); // Adjusted to be relative to viewport width
   padding-top: 0%;
   padding-bottom: 0%;
   overflow: hidden; // Ensure that any overflowing content is hidden
+  }
+  display: flex;
+  flex-direction: column;
+}
 
-  img {
-    width: 100%; // Ensure the image takes up the full width of the container
-    height: auto; // Maintain the image's aspect ratio
-    display: block; // Remove any default inline spacing
+.herotext {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-top: 1.2rem;
+  padding-bottom: 1.2rem;
+
+  > * {
+    flex: 1 1 25%;
+    box-sizing: border-box;
+    word-wrap: break-word;
+    line-height: 1.38em;
+
+    &:not(:last-child) {
+      margin-right: 0;
+    }
   }
 }

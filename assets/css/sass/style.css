@@ -154,11 +154,7 @@ a:hover, a:active, a:visited {
   background: white;
   display: block;
   margin-left: -5%;
-<<<<<<< Updated upstream
-  padding-top: 10px;
-=======
   padding-top: 1%;
->>>>>>> Stashed changes
   /*Breakpoint for when menu can't fit the screen anymore*/
   /*#header h1*/
   /*Close nav#menu*/
@@ -502,7 +498,37 @@ article#article.show .info .date-author {
 }
 
 /*Articles SASS file*/
-<<<<<<< Updated upstream
+.hero {
+  display: flex;
+  flex-direction: column;
+}
+.hero img {
+  width: 100vw;
+  margin-left: -5vw;
+  margin-right: -5vw;
+  padding-top: 0%;
+  padding-bottom: 0%;
+  overflow: hidden;
+}
+
+.herotext {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-top: 1.2rem;
+  padding-bottom: 1.2rem;
+}
+.herotext > * {
+  flex: 1 1 25%;
+  box-sizing: border-box;
+  word-wrap: break-word;
+  line-height: 1.38em;
+}
+.herotext > *:not(:last-child) {
+  margin-right: 0;
+}
+
+/*Hero SASS file*/
 .team-section {
   display: flex;
   gap: 2rem;
@@ -515,23 +541,6 @@ article#article.show .info .date-author {
 }
 
 /*page-3-content SASS file*/
-=======
-.hero {
-  width: 100vw;
-  margin-left: -5vw;
-  margin-right: -5vw;
-  padding-top: 0%;
-  padding-bottom: 0%;
-  overflow: hidden;
-}
-.hero img {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-
-/*Hero SASS file*/
->>>>>>> Stashed changes
 html {
   width: 100%;
   margin: 0;
