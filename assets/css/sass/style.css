@@ -565,6 +565,25 @@ article#article.show .info .date-author {
 }
 
 /*page-3-content SASS file*/
+.transition-1 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0%;
+  z-index: 101;
+  background-color: var(--dark);
+  opacity: 0;
+  pointer-events: none;
+  transition: 0.5s ease-out;
+}
+
+.transition-1.is_active {
+  opacity: 1;
+  pointer-events: all;
+}
+
+/*transitions SASS file*/
 html {
   width: 100%;
   margin: 0;
