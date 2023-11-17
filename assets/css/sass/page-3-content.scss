@@ -1,7 +1,13 @@
 .team-section {
   display: flex;
-  gap: 2rem;
+  flex-direction: column;
+}
+
+.card-section {
+  display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 .card {

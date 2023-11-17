@@ -536,8 +536,9 @@ article#article.show .info .date-author {
 
 .card-section {
   display: flex;
-  gap: 2rem;
+  flex-direction: row;
   flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 .card {
