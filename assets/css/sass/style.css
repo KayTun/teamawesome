@@ -546,6 +546,24 @@ article#article.show .info .date-author {
   flex-direction: column;
 }
 
+/*page-2-content SASS file*/
+.team-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+}
+
 /*page-3-content SASS file*/
 html {
   width: 100%;
