@@ -23,7 +23,7 @@
       
             setInterval(() => {
               window.location.href = target;
-            }, 500);
+            }, 300);
           })
         }
       }
