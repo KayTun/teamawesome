@@ -1,18 +1,22 @@
-@charset "UTF-8";
-/*
-Name: Google News SASS
-Version: 1.0
-*/
-/*COLORS*/
-/*Colors SASS file*/
-/*! MIXIN  */
-/*Transitions*/
-@-webkit-keyframes moveUp {
-  100% {
-    -webkit-transform: translateY(0);
-    opacity: 1;
-  }
+/* Error: Can't find stylesheet to import.
+ *    ,
+ * 11 | @import "page-2-hero.scss"; /*Hero SASS file*∕
+ *    |         ^^^^^^^^^^^^^^^^^^
+ *    '
+ *   style.scss 11:9  root stylesheet */
+
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Can't find stylesheet to import.\a    \2577 \a 11 \2502  @import \"page-2-hero.scss\"; /*Hero SASS file*/\a    \2502          ^^^^^^^^^^^^^^^^^^\a    \2575 \a   style.scss 11:9  root stylesheet";
 }
+<<<<<<< HEAD
+=======
 @keyframes moveUp {
   100% {
     -webkit-transform: translateY(0);
@@ -566,3 +570,4 @@ body {
 }
 
 /*# sourceMappingURL=style.css.map */
+>>>>>>> footer
