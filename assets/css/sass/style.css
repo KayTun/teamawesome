@@ -516,7 +516,7 @@ article#article.show .info .date-author {
   flex-direction: row;
   justify-content: space-evenly;
   padding-top: 1.2rem;
-  padding-bottom: 1.3rem;
+  padding-bottom: 1.2rem;
 }
 .herotext > * {
   flex: 1 1 25%;
@@ -531,8 +531,14 @@ article#article.show .info .date-author {
 /*Hero SASS file*/
 .team-section {
   display: flex;
-  gap: 2rem;
+  flex-direction: column;
+}
+
+.card-section {
+  display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 .card {
