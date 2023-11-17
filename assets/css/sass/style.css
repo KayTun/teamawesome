@@ -572,10 +572,10 @@ article#article.show .info .date-author {
   right: 0;
   bottom: 0%;
   z-index: 101;
-  background-color: var(--dark);
+  background-color: rgb(247, 247, 247);
   opacity: 0;
   pointer-events: none;
-  transition: 0.5s ease-out;
+  transition: 0.3s ease-out;
 }
 
 .transition-1.is_active {
