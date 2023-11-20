@@ -618,7 +618,8 @@ article#article.show .info .date-author {
   /* Styles for screens with a maximum width of 600px (typical for mobile devices) */
   .flex-container,
   .flex-container-2 {
-    flex-direction: column; /* Stack items vertically for smaller screens */
+    flex-direction: column;
+    align-items: flex-start; /* Stack items vertically for smaller screens */
   }
   .flex-item:nth-child(3) {
     margin-right: 0; /* Remove right margin for the third item on smaller screens */
