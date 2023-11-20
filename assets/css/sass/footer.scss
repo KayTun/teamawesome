@@ -5,18 +5,23 @@
     justify-content: space-between; /* Distribute items equally with space in between */
     width: 100%;
     border-top: 2px solid #555; /* Add a 2px solid border on the top side */
-    padding-top: 10px; /* Add padding to create space between the border and items */
+    margin: 2% 0;
+    padding: 20px 0; /* Add padding to create space between the border and items */
   }
   
   /* Style individual flex items */
   .flex-item {
     flex: 1; /* Each item takes up equal space */
-    padding: 10px;
-    text-align: center;
-    border: 1px solid #555;
+    margin: 0;
+    padding: 10px 0;
+    text-align: left;
   }
   
   /* Adjust spacing for the third and fourth items */
   .flex-item:nth-child(3) {
-	margin-right: 20px; /* Larger spacing after the third item */
+	margin-right: 80px; /* Larger spacing after the third item */
+  }
+
+  .footer-heading {
+    font-weight: bold;
   }
