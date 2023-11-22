@@ -14,7 +14,7 @@
 
 .flex-container-2 {
   align-items: flex-start;
-  border-top: 1px solid black;
+  border-top: 1px solid #ababab;
 }
 
   
@@ -34,6 +34,10 @@
     font-weight: bold;
   }
 
+  .map {
+    padding-bottom: 6%;
+  }
+
   @media only screen and (max-width: 600px) {
     /* Styles for screens with a maximum width of 600px (typical for mobile devices) */
   
@@ -47,8 +51,8 @@
       margin-right: 0; /* Remove right margin for the third item on smaller screens */
     }
   
-    .google-map {
-      padding-bottom: 30%; /* Adjust padding for the map container on smaller screens */
+    .map {
+      padding-bottom: 20%; /* Adjust padding for the map container on smaller screens */
     }
   
     /* Add more styles as needed for optimal mobile display */
