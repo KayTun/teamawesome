@@ -536,7 +536,7 @@ article#article.show .info .date-author {
   flex-direction: column;
   padding-top: 5%;
   padding-bottom: 5%;
-  border-top: 2px solid black;
+  border-top: 1px solid #ababab;
 }
 .team-section .card-section {
   display: flex;
@@ -593,7 +593,7 @@ article#article.show .info .date-author {
 
 .flex-container-2 {
   align-items: flex-start;
-  border-top: 1px solid black;
+  border-top: 1px solid #ababab;
 }
 
 /* Style individual flex items */
