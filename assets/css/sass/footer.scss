@@ -34,8 +34,8 @@
     font-weight: bold;
   }
 
-  .margin-bottom {
-    margin-bottom: 2%;
+  .map {
+    padding-bottom: 6%;
   }
 
   @media only screen and (max-width: 600px) {
@@ -51,8 +51,8 @@
       margin-right: 0; /* Remove right margin for the third item on smaller screens */
     }
   
-    .google-map {
-      padding-bottom: 30%; /* Adjust padding for the map container on smaller screens */
+    .map {
+      padding-bottom: 20%; /* Adjust padding for the map container on smaller screens */
     }
   
     /* Add more styles as needed for optimal mobile display */

@@ -583,8 +583,7 @@ article#article.show .info .date-author {
   display: flex;
   justify-content: space-between; /* Distribute items equally with space in between */
   width: 100%;
-  margin: 2% 0 0 0;
-  padding: 3%; /* Add padding to create space between the border and items */
+  padding: 3% 0; /* Add padding to create space between the border and items */
   border-top: 2px solid black;
 }
 
@@ -599,7 +598,7 @@ article#article.show .info .date-author {
 /* Style individual flex items */
 .flex-item {
   flex: 1; /* Each item takes up equal space */
-  margin: 0;
+  margin: 10px 1%;
   padding: 10px 0;
   text-align: left;
 }
@@ -613,8 +612,8 @@ article#article.show .info .date-author {
   font-weight: bold;
 }
 
-.margin-bottom {
-  margin-bottom: 2%;
+.map {
+  padding-bottom: 6%;
 }
 
 @media only screen and (max-width: 600px) {
@@ -627,8 +626,8 @@ article#article.show .info .date-author {
   .flex-item:nth-child(3) {
     margin-right: 0; /* Remove right margin for the third item on smaller screens */
   }
-  .google-map {
-    padding-bottom: 30%; /* Adjust padding for the map container on smaller screens */
+  .map {
+    padding-bottom: 20%; /* Adjust padding for the map container on smaller screens */
   }
   /* Add more styles as needed for optimal mobile display */
 }
