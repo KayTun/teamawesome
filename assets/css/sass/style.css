@@ -521,7 +521,6 @@ article#article.show .info .date-author {
 .herotext > * {
   flex: 1 1 25%;
   box-sizing: border-box;
-  word-wrap: break-word;
   line-height: 1.38em;
 }
 .herotext > *:not(:last-child) {
@@ -532,57 +531,34 @@ article#article.show .info .date-author {
 .team-section {
   display: flex;
   flex-direction: column;
+  padding-top: 6%;
+  padding-bottom: 6%;
+  border-bottom: 2px solid black;
+  border-top: 2px solid black;
 }
-
-.card-section {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-
-.card {
-  display: flex;
-  flex-direction: column;
-}
-
-/*page-2-content SASS file*/
-.team-section {
-  display: flex;
-  flex-direction: column;
-}
-
-.card-section {
+.team-section .card-section {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  margin-top: 1%;
 }
-
-.card {
+.team-section .card {
   display: flex;
   flex-direction: column;
 }
 
 /*page-3-content SASS file*/
-.transition-1 {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0%;
-  z-index: 101;
-  background-color: rgb(247, 247, 247);
-  opacity: 0;
-  pointer-events: none;
-  transition: 0.3s ease-out;
+.our-story {
+  margin-top: 4%;
+  margin-bottom: 4%;
+}
+.our-story p {
+  padding-bottom: 1%;
 }
 
-.transition-1.is_active {
-  opacity: 1;
-  pointer-events: all;
-}
-
-/*transitions SASS file*/
+/*
+@import "transitions.scss"; /*transitions SASS file*/
 html {
   width: 100%;
   margin: 0;
