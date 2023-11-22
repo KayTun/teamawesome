@@ -510,7 +510,7 @@ article#article.show .info .date-author {
   margin-left: -5vw;
   margin-right: -5vw;
   padding-top: 0%;
-  padding-bottom: 0%;
+  padding-bottom: 1%;
   overflow: hidden;
 }
 
@@ -534,8 +534,8 @@ article#article.show .info .date-author {
 .team-section {
   display: flex;
   flex-direction: column;
-  padding-top: 6%;
-  padding-bottom: 6%;
+  padding-top: 5%;
+  padding-bottom: 5%;
   border-top: 2px solid black;
 }
 .team-section .card-section {
@@ -543,7 +543,6 @@ article#article.show .info .date-author {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  margin-top: 1%;
 }
 .team-section .card {
   display: flex;
@@ -584,7 +583,8 @@ article#article.show .info .date-author {
   display: flex;
   justify-content: space-between; /* Distribute items equally with space in between */
   width: 100%;
-  padding: 3% 0; /* Add padding to create space between the border and items */
+  margin: 0;
+  padding: 2% 0; /* Add padding to create space between the border and items */
   border-top: 2px solid black;
 }
 
@@ -599,7 +599,6 @@ article#article.show .info .date-author {
 /* Style individual flex items */
 .flex-item {
   flex: 1; /* Each item takes up equal space */
-  margin: 10px 1%;
   padding: 10px 0;
   text-align: left;
 }
@@ -611,10 +610,6 @@ article#article.show .info .date-author {
 
 .special-heading {
   font-weight: bold;
-}
-
-.margin-bottom {
-  margin-bottom: 2%;
 }
 
 @media only screen and (max-width: 600px) {

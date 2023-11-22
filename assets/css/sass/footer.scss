@@ -4,7 +4,8 @@
     display: flex;
     justify-content: space-between; /* Distribute items equally with space in between */
     width: 100%;
-    padding: 3% 0; /* Add padding to create space between the border and items */
+    margin: 0;
+    padding: 2% 0; /* Add padding to create space between the border and items */
     border-top: 2px solid black;
   }
 
@@ -20,7 +21,6 @@
   /* Style individual flex items */
   .flex-item {
     flex: 1; /* Each item takes up equal space */
-    margin: 10px 1%;
     padding: 10px 0;
     text-align: left;
   }
