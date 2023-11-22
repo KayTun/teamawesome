@@ -1,9 +1,8 @@
 .team-section {
   display: flex;
   flex-direction: column;
-  padding-top: 6%;
-  padding-bottom: 6%;
-  border-bottom: 2px solid black;
+  padding-top: 5%;
+  padding-bottom: 5%;
   border-top: 2px solid black;
 
 .card-section {
@@ -11,7 +10,6 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  margin-top: 1%;
 }
 
 .card {
