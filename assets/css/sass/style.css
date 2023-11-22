@@ -612,8 +612,8 @@ article#article.show .info .date-author {
   font-weight: bold;
 }
 
-.map {
-  padding-bottom: 6%;
+.margin-bottom {
+  margin-bottom: 2%;
 }
 
 @media only screen and (max-width: 600px) {
