@@ -583,17 +583,17 @@ article#article.show .info .date-author {
   display: flex;
   justify-content: space-between; /* Distribute items equally with space in between */
   width: 100%;
-  margin: 0;
-  padding: 2% 0; /* Add padding to create space between the border and items */
 }
 
 .flex-container {
   align-items: flex-end;
+  margin: 2% 0;
 }
 
 .flex-container-2 {
   align-items: flex-start;
   border-top: 1px solid #ababab;
+  padding: 2% 0; /* Add padding to create space between the border and items */
 }
 
 /* Style individual flex items */
@@ -612,8 +612,8 @@ article#article.show .info .date-author {
   font-weight: bold;
 }
 
-.margin-bottom {
-  margin-bottom: 2%;
+.map {
+  padding-bottom: 6%;
 }
 
 @media only screen and (max-width: 600px) {

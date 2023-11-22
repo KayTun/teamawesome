@@ -4,12 +4,13 @@
     display: flex;
     justify-content: space-between; /* Distribute items equally with space in between */
     width: 100%;
-    margin: 0;
   }
 
 .flex-container {
     align-items: flex-end;
+    margin: 2% 0;
 }
+
 
 .flex-container-2 {
   align-items: flex-start;
