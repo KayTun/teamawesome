@@ -585,7 +585,6 @@ article#article.show .info .date-author {
   width: 100%;
   margin: 0;
   padding: 2% 0; /* Add padding to create space between the border and items */
-  border-top: 2px solid black;
 }
 
 .flex-container {
@@ -594,6 +593,7 @@ article#article.show .info .date-author {
 
 .flex-container-2 {
   align-items: flex-start;
+  border-top: 2px solid black;
 }
 
 /* Style individual flex items */
