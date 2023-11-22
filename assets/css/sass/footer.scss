@@ -40,6 +40,7 @@
     .flex-container,
     .flex-container-2 {
       flex-direction: column; /* Stack items vertically for smaller screens */
+      align-items: baseline;
     }
   
     .flex-item:nth-child(3) {

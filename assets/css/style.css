@@ -623,6 +623,7 @@ article#article.show .info .date-author {
   .flex-container,
   .flex-container-2 {
     flex-direction: column; /* Stack items vertically for smaller screens */
+    align-items: baseline;
   }
   .flex-item:nth-child(3) {
     margin-right: 0; /* Remove right margin for the third item on smaller screens */
