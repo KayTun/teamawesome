@@ -2,7 +2,7 @@
 
 #header {
   width: 110%;
-  height: 130px;
+  height: 140px;
   overflow: hidden;
   background: white;
   display: block;
@@ -76,6 +76,8 @@
 
     ul {
       display:block;
+      margin: 0;
+      padding: 0;
 
       li {
         display: inline-block;
