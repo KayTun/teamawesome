@@ -598,7 +598,6 @@ article#article.show .info .date-author {
 /* Style individual flex items */
 .flex-item {
   flex: 1; /* Each item takes up equal space */
-  margin: 10px 1%;
   padding: 10px 0;
   text-align: left;
 }
