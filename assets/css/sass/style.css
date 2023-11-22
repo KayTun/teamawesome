@@ -149,7 +149,7 @@ a:hover, a:active, a:visited {
 /*! HEADER STYLES */
 #header {
   width: 110%;
-  height: 130px;
+  height: 140px;
   overflow: hidden;
   background: white;
   display: block;
@@ -232,6 +232,8 @@ a:hover, a:active, a:visited {
 }
 #header nav#menu ul {
   display: block;
+  margin: 0;
+  padding: 0;
   /*Close li*/
 }
 #header nav#menu ul li {
@@ -548,7 +550,7 @@ article#article.show .info .date-author {
   flex-direction: column;
 }
 
-/*page-3-content SASS file*/
+/*team section SASS file*/
 .our-story {
   margin-top: 4%;
   margin-bottom: 4%;
@@ -557,8 +559,76 @@ article#article.show .info .date-author {
   padding-bottom: 1%;
 }
 
-/*
-@import "transitions.scss"; /*transitions SASS file*/
+/*ourstory sass file*/
+.transition-1 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0%;
+  z-index: 101;
+  background-color: rgb(247, 247, 247);
+  opacity: 0;
+  pointer-events: none;
+  transition: 0.3s ease-out;
+}
+
+.transition-1.is_active {
+  opacity: 1;
+  pointer-events: all;
+}
+
+/*transitions SASS file*/
+/*------FOOTER-----*/
+.flex-container, .flex-container-2 {
+  display: flex;
+  justify-content: space-between; /* Distribute items equally with space in between */
+  width: 100%;
+  margin: 2% 0 1% 0;
+  padding: 20px 0; /* Add padding to create space between the border and items */
+}
+
+.flex-container {
+  align-items: flex-end;
+}
+
+.flex-container-2 {
+  align-items: flex-start;
+}
+
+/* Style individual flex items */
+.flex-item {
+  flex: 1; /* Each item takes up equal space */
+  margin: 0;
+  padding: 10px 0;
+  text-align: left;
+}
+
+/* Adjust spacing for the third and fourth items */
+.flex-item:nth-child(3) {
+  margin-right: 80px; /* Larger spacing after the third item */
+}
+
+.special-heading {
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) {
+  /* Styles for screens with a maximum width of 600px (typical for mobile devices) */
+  .flex-container,
+  .flex-container-2 {
+    flex-direction: column; /* Stack items vertically for smaller screens */
+    align-items: baseline;
+  }
+  .flex-item:nth-child(3) {
+    margin-right: 0; /* Remove right margin for the third item on smaller screens */
+  }
+  .google-map {
+    padding-bottom: 30%; /* Adjust padding for the map container on smaller screens */
+  }
+  /* Add more styles as needed for optimal mobile display */
+}
+/*footer sass file*/
 html {
   width: 100%;
   margin: 0;
@@ -600,27 +670,6 @@ body {
   margin: 0 auto;
   display: block;
   overflow: hidden;
-}
-
-/*------FOOTER-----*/
-.flex-container {
-  display: flex;
-  justify-content: space-between; /* Distribute items equally with space in between */
-  width: 100%;
-  border-top: 2px solid #555;
-}
-
-/* Style individual flex items */
-.flex-item {
-  flex: 1; /* Each item takes up equal space */
-  padding: 10px;
-  text-align: center;
-  border: 1px solid #555;
-}
-
-/* Adjust spacing for the third and fourth items */
-.flex-item:nth-child(3) {
-  margin-right: 20px; /* Larger spacing after the third item */
 }
 
 /*# sourceMappingURL=style.css.map */
