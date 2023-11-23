@@ -1,31 +1,30 @@
 .hero {
-
-  img {
-    width: 100vw;
-  margin-left: calc(-5vw); // Adjusted to be relative to viewport width
-  margin-right: calc(-5vw); // Adjusted to be relative to viewport width
-  padding-top: 0%;
-  padding-bottom: 1%;
-  overflow: hidden; // Ensure that any overflowing content is hidden
-  }
   display: flex;
   flex-direction: column;
-}
+  
+  img {
+  width: 100vw;
+  height: auto;
+  margin-left: calc(-5vw); // Adjusted to be relative to viewport width
+  margin-right: calc(-5vw); // Adjusted to be relative to viewport width
+  overflow: hidden; // Ensure that any overflowing content is hidden
+  }
 
 .herotext {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-evenly;
   padding-top: 1.2rem;
   padding-bottom: 1.2rem;
 
   > * {
     flex: 1 1 25%;
-    box-sizing: border-box;
     line-height: 1.38em;
 
     &:not(:last-child) {
       margin-right: 0;
     }
   }
+}
 }
