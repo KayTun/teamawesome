@@ -13,7 +13,7 @@
       
           anchor.addEventListener('click', e => {
             e.preventDefault();
-            let target = e.target.href;
+            let target = e.currentTarget.href;
       
             console.log(transition_el);
       
