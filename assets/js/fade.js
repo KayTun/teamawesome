@@ -10,7 +10,10 @@
       
         for (let i = 0; i < anchors.length; i++) {
           const anchor = anchors[i];
-      
+          if (anchors[idx].hostname !== window.location.hostname ||
+            anchors[idx].pathname === window.location.pathname || 
+            anchors[idx].classList.contains("no-nav")) {
+            continue;
           anchor.addEventListener('click', e => {
             e.preventDefault();
             let target = e.currentTarget.href;
@@ -27,3 +30,4 @@
           })
         }
       }
+    }
